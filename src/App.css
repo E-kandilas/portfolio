@@ -1,8 +1,35 @@
 .App {
   text-align: center;
+  padding: 2%;
+  height: 100vh;
+  width: auto;
+  background: rgb(214, 214, 221);
+  background: linear-gradient(
+    0deg,
+    rgba(214, 214, 221, 1) 2%,
+    rgba(255, 255, 255, 1) 89%
+  );
 }
 
-.profile-picture{
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile-picture {
   border-radius: 50%;
-  width: 22%;
+  min-width: 20%;
+  max-width: 30%;
+  height: auto;
+  align-self: center;
+}
+
+.about-description {
+  max-width: 50%;
+  flex-basis: 10%;
+  align-self: center;
+  flex-wrap: nowrap;
+  font-size: 1rem;
 }

@@ -5,7 +5,7 @@ import Projects from "./Projects";
 const App = () => {
   return (
     <div className="App">
-      <div className="main-container">
+      <div className="col">
         <AboutMe />
         <Projects />
       </div>
