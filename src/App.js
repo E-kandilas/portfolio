@@ -1,11 +1,14 @@
 import "./App.css";
+import AboutMe from "./AboutMe";
+import Projects from "./Projects";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">Hello world</header>
+      <AboutMe />
+      <Projects />
     </div>
   );
-}
+};
 
 export default App;
