@@ -1,7 +1,11 @@
+import headShot3 from "./Assets/Images/headShot3.jpg";
+
 const AboutMe = () => {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div className="content">
+      <div className="card">
+        <img className ="profile-picture" src={headShot3} />
+      </div>
     </div>
   );
 };
