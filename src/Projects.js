@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
-    <div className="content">
-      <div className="card">
+    <div className="row">
+      <div className="col-lg card">
         <h1>Projects</h1>
       </div>
     </div>

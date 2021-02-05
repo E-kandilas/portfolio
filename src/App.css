@@ -53,7 +53,7 @@
 
 .homepage-links {
   margin-top: 1%;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -61,9 +61,8 @@
 }
 
 .home-icon {
-  height: 2rem;
-  width: 2rem;
-  /* filter: sepia(0.5) invert(10) saturate(100) hue-rotate(-50deg); */
+  height: 2.4rem;
+  width: 2.4rem;
   transition: all 0.4s ease-in-out;
 }
 
@@ -91,7 +90,8 @@
 }
 
 .home-icon:hover {
-  animation: shake 0.7s cubic-bezier(0, 0, 0, 0) both;
+  animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  filter: invert(32%) sepia(80%) saturate(6606%) hue-rotate(-52deg)
+    brightness(97%) contrast(111%);
   /* transform: scale(1.2);  */
-  /* filter: sepia(0.7) invert(0) saturate(100) hue-rotate(-50deg); */
 }
