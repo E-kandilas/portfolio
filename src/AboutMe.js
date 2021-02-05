@@ -18,7 +18,7 @@ const AboutMe = () => {
           <img className="" src={headShot3} />
         </div>
       </div>
-      <div className="col-xl-6">
+      <div className="col-lg about-text">
         <h3>Welcome</h3>
         <p className="text-justify text-body">{aboutText}</p>
         <div className="homepage-links">

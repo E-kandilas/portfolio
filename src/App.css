@@ -21,6 +21,12 @@
   justify-content: space-around;
 }
 
+.about-text {
+  padding-top: 4%;
+  padding-right: 4%;
+  padding-left: -2%;
+}
+
 .profile-image {
   display: flex;
   flex-direction: column;
@@ -34,20 +40,20 @@
 .profile-image img {
   border-radius: 50%;
   position: relative;
-  min-width: 35%;
+  min-width: 45%;
   min-height: auto;
-  max-width: 35%;
+  max-width: 45%;
   max-height: auto;
   object-fit: cover;
 }
 
-.about-description {
+/* .about-description {
   max-width: 50%;
   flex-basis: 10%;
   align-self: center;
   flex-wrap: nowrap;
   font-size: 1rem;
-}
+} */
 
 /* Home Page Links */
 
