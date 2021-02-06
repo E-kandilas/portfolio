@@ -12,16 +12,16 @@ import resume from "./Assets/Text/Emmanuel Kandilas Resume 2021.pdf"
 
 const AboutMe = () => {
   return (
-    <div className="row justify-content-center">
+    <div className="row justify-content-center pt-5">
       <div className="col-md ">
         <div className="profile-image">
           <img className="" src={headShot3} />
         </div>
       </div>
       <div className="col-lg about-text">
-        <h3>Welcome</h3>
-        <p className="text-justify text-body">{aboutText}</p>
-        <div className="homepage-links pt-3">
+        <h3>Welcome, traveler</h3>
+        <p className="text-justify text-body pt-3">{aboutText}</p>
+        <div className="homepage-links pt-5">
           <a href="https://github.com/E-kandilas" target="_blank">
             <img src={GitHub} className="home-icon" alt="Github" />
           </a>
