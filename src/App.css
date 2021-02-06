@@ -63,32 +63,7 @@
   transition: all 0.4s ease-in-out;
 }
 
-@keyframes shake {
-  10%,
-  90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%,
-  80% {
-    transform: translate3d(1px, 0, 0);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: translate3d(-2px, 0, 0);
-  }
-
-  40%,
-  60% {
-    transform: translate3d(2px, 0, 0);
-  }
-}
-
 .home-icon:hover {
-  animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  filter: invert(32%) sepia(80%) saturate(6606%) hue-rotate(-52deg)
-    brightness(97%) contrast(111%);
-  /* transform: scale(1.2);  */
+  filter: invert(44%) sepia(93%) saturate(1326%) hue-rotate(320deg)
+    brightness(81%) contrast(122%);
 }
