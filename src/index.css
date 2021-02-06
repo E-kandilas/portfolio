@@ -1,14 +1,18 @@
 html * {
-  margin: 0;
-  padding: 0;
+  max-width: 100%;
 }
 
 body {
-  margin: 0;
-  height: 100%;
+  height: 100vh;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(214, 214, 221);
+  background: linear-gradient(
+    0deg,
+    rgba(214, 214, 221, 1) 2%,
+    rgba(255, 255, 255, 1) 89%
+  );
 }
 
 code {

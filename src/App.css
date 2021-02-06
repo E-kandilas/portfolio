@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   padding: 2%;
   height: 100vh;
@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
+} */
 
 .about-container {
   display: flex;
@@ -24,7 +24,6 @@
 .about-text {
   padding-top: 4%;
   padding-right: 4%;
-  padding-left: -2%;
 }
 
 .profile-image {
@@ -40,9 +39,9 @@
 .profile-image img {
   border-radius: 50%;
   position: relative;
-  min-width: 45%;
+  min-width: 30%;
   min-height: auto;
-  max-width: 45%;
+  max-width: 35%;
   max-height: auto;
   object-fit: cover;
 }

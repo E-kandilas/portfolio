@@ -3,22 +3,10 @@ import mindOverMatterDash from "./Assets/Images/MindOverMatter/DashBoard.png";
 
 const Projects = () => {
   return (
-    <div className="row">
-      <ProjectCard
-        picture1={mindOverMatterDash}
-        picture2={mindOverMatterDash}
-        picture3={mindOverMatterDash}
-      />
-      <ProjectCard
-        picture1={mindOverMatterDash}
-        picture2={mindOverMatterDash}
-        picture3={mindOverMatterDash}
-      />
-      <ProjectCard
-        picture1={mindOverMatterDash}
-        picture2={mindOverMatterDash}
-        picture3={mindOverMatterDash}
-      />
+    <div className="card-deck pt-5 ">
+      <ProjectCard picture={mindOverMatterDash} />
+      <ProjectCard picture={mindOverMatterDash} />
+      <ProjectCard picture={mindOverMatterDash} />
     </div>
   );
 };

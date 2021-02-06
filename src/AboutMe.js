@@ -21,7 +21,7 @@ const AboutMe = () => {
       <div className="col-lg about-text">
         <h3>Welcome</h3>
         <p className="text-justify text-body">{aboutText}</p>
-        <div className="homepage-links">
+        <div className="homepage-links pt-3">
           <a href="https://github.com/E-kandilas" target="_blank">
             <img src={GitHub} className="home-icon" alt="Github" />
           </a>
