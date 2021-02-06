@@ -1,3 +1,19 @@
+.background-img {
+  z-index: -5;
+  max-width: 55%;
+  max-height: auto;
+  position: fixed;
+}
+
+@media only screen and (max-width: 1000px) {
+  .background-img {
+    z-index: -5;
+    max-width: 95%;
+    max-height: auto;
+    position: fixed;
+  }
+}
+
 .about-container {
   display: flex;
   flex-direction: row;
