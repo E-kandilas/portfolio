@@ -12,8 +12,9 @@ body {
     0deg,
     rgba(214, 214, 221, 1) 2%,
     rgba(255, 255, 255, 1) 89%
-    );
-    
+  );
+  background-attachment: fixed;
+  /* background-image: url("./Assets/Images/ink-plum-blossom.png") */
 }
 
 code {
