@@ -23,15 +23,15 @@ const Projects = () => {
         picture={mindOverMatterDash}
         title={"Mind Over Matter"}
         description={mindOverMatterText}
-        deployedLink={null}
-        repoLink={null}
+        deployedLink={"https://mind-over-matter.herokuapp.com/"}
+        repoLink={"https://github.com/FullstackHeroes/Mind-Over-Matter"}
       />
       <ProjectCard
         picture={battleBoggleLogo}
         title={"Battle Boggle"}
         description={BattleBoggleText}
         deployedLink={null}
-        repoLink={null}
+        repoLink={"https://github.com/ZeroSumGames/BattleBoggle"}
       />
     </div>
   );

@@ -12,20 +12,24 @@ const ProjectCard = (props) => {
       </h6>
     );
   } else if (!deployedLink && repoLink) {
-    <h6>
-      <a href="" className="badge badge-info">
-        GitHub
-      </a>
-    </h6>;
+    flags = (
+      <h6>
+        <a href={repoLink} target="_blank" className="badge badge-info">
+          GitHub
+        </a>
+      </h6>
+    );
   } else {
-    <h6>
-      <a href="" className="badge badge-info">
-        GitHub
-      </a>
-      <a href="" className="badge badge-success">
-        Deployed
-      </a>
-    </h6>;
+    flags = (
+      <h6>
+        <a href={repoLink} target="_blank" className="badge badge-info m-1">
+          GitHub
+        </a>
+        <a href={deployedLink} target="_blank" className="badge badge-success">
+          Deployed
+        </a>
+      </h6>
+    );
   }
 
   return (
