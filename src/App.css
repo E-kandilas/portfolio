@@ -6,7 +6,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  z-index: 100;
+  z-index: 1;
 }
 
 .home-icon {
@@ -37,7 +37,6 @@
   position: fixed;
   text-align: center;
   font-size: 2rem;
-  transition: opacity 1s, z-index .2s 1s;
 }
 
 @keyframes fadeinout {
@@ -45,7 +44,7 @@
     opacity: 1;
   }
   25% {
-    opacity: .8;
+    opacity: 1;
   }
   50% {
     opacity: 0.0;
