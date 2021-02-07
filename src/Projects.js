@@ -23,11 +23,15 @@ const Projects = () => {
         picture={mindOverMatterDash}
         title={"Mind Over Matter"}
         description={mindOverMatterText}
+        deployedLink={null}
+        repoLink={null}
       />
       <ProjectCard
         picture={battleBoggleLogo}
         title={"Battle Boggle"}
         description={BattleBoggleText}
+        deployedLink={null}
+        repoLink={null}
       />
     </div>
   );
