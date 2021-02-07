@@ -13,7 +13,7 @@ import BattleBoggleText from "./Assets/Text/BattleBoggleText";
 
 const Projects = () => {
   return (
-    <div className="row pt-5 pb-2 col-lg-11 mx-auto ">
+    <div className="row pt-5 pb-1 col-lg-11 mx-auto ">
       <ProjectCard
         picture={glife1}
         title={"Gesture Life"}

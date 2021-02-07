@@ -14,6 +14,11 @@ body {
     rgba(255, 255, 255, 1) 89%
   );
   background-attachment: fixed;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 code {
