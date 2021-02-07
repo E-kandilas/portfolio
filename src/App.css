@@ -46,7 +46,7 @@
     opacity: 1;
   }
   50% {
-    opacity: 0.0;
+    opacity: 0;
   }
   100% {
     opacity: 0;
@@ -85,7 +85,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  body{
+  body {
     padding-left: 2%;
     height: 120vh;
   }
@@ -94,7 +94,8 @@
     z-index: -5;
     max-width: 95%;
     max-height: auto;
-    position: fixed;
+    /* position: fixed; */ /* some people dont like the look of scrolling over the blossoms*/
+    position: absolute;
   }
 }
 
