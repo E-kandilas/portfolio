@@ -1,12 +1,17 @@
-
 .welcome-page {
-  animation: fadeinout 5s linear 1 forwards;
-  background-color: whitesmoke;
+  animation: fadeinout 4.5s linear 1 forwards;
+  background: rgb(214, 214, 221);
+  background: linear-gradient(
+    0deg,
+    rgb(152, 152, 158) 2%,
+    rgba(255, 255, 255, 1) 89%
+  );
   height: 110vh;
-  width: 100vw;
-  z-index: 5;
+  width: 110vw;
+  z-index: 2;
   position: fixed;
   text-align: center;
+  font-size: 2rem;
 }
 
 @keyframes fadeinout {
@@ -14,14 +19,22 @@
     opacity: 1;
   }
   50% {
-    opacity: 1;
+    opacity: 0.9;
+  }
+  65% {
+    opacity: 0.7;
   }
   75% {
     opacity: 0.5;
   }
+  85% {
+    opacity: 0.4;
+  }
+  95% {
+    opacity: 0.2;
+  }
   100% {
     opacity: 0;
-    z-index: -1;
   }
 }
 
@@ -102,8 +115,6 @@
     brightness(113%) contrast(85%);
 }
 
-
-
 @media (max-width: 768px) {
   .woocommerce ul.products li.product,
   .woocommerce-page ul.products li.product,
@@ -116,13 +127,11 @@
   }
 }
 
-
-
 .snow-bg {
   content: "";
   display: block;
   position: absolute;
-  z-index: 2;
+  z-index: -1;
   top: 0;
   left: 0;
   right: 0;
