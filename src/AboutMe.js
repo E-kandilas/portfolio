@@ -1,14 +1,17 @@
+//Import face picture
 import headShot3 from "./Assets/Images/headShot3.jpg";
+
+//Import About me Text
 import aboutText from "./Assets/Text/aboutText";
 
-//Images Import
+//Resume Import
+import resume from "./Assets/Text/Emmanuel Kandilas Resume 2021.pdf";
+
+//Sprites Imports
 import GitHub from "./Assets/Images/Icons/github-brands.svg";
 import Linkedin from "./Assets/Images/Icons/linkedin-brands.svg";
-// import Email from "./Assets/Images/Icons/envelope-solid.svg";
 import Resume from "./Assets/Images/Icons/file-alt-solid.svg";
-
-//Resume Import 
-import resume from "./Assets/Text/Emmanuel Kandilas Resume 2021.pdf"
+// import Email from "./Assets/Images/Icons/envelope-solid.svg";
 
 const AboutMe = () => {
   return (
