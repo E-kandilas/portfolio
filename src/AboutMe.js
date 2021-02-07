@@ -4,7 +4,7 @@ import aboutText from "./Assets/Text/aboutText";
 //Images Import
 import GitHub from "./Assets/Images/Icons/github-brands.svg";
 import Linkedin from "./Assets/Images/Icons/linkedin-brands.svg";
-import Email from "./Assets/Images/Icons/envelope-solid.svg";
+// import Email from "./Assets/Images/Icons/envelope-solid.svg";
 import Resume from "./Assets/Images/Icons/file-alt-solid.svg";
 
 //Resume Import 

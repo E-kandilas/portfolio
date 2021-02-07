@@ -1,3 +1,30 @@
+
+.welcome-page {
+  animation: fadeinout 5s linear 1 forwards;
+  background-color: whitesmoke;
+  height: 110vh;
+  width: 100vw;
+  z-index: 5;
+  position: fixed;
+  text-align: center;
+}
+
+@keyframes fadeinout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
 .background-img {
   z-index: -5;
   max-width: 55%;
@@ -73,4 +100,48 @@
 .home-icon:hover {
   filter: invert(77%) sepia(29%) saturate(4733%) hue-rotate(305deg)
     brightness(113%) contrast(85%);
+}
+
+
+
+@media (max-width: 768px) {
+  .woocommerce ul.products li.product,
+  .woocommerce-page ul.products li.product,
+  .woocommerce-page[class*="columns-"] ul.products li.product,
+  .woocommerce[class*="columns-"] ul.products li.product {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 0 7em;
+  }
+}
+
+
+
+.snow-bg {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background-image: url("./Assets/Images/sakura-1-1.png"),
+    url("./Assets/Images/sakura-2.png");
+  animation: snow 20s linear infinite;
+  background-attachment: fixed;
+}
+
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  50% {
+    background-position: 500px 500px, 100px 200px, -100px 150px;
+  }
+  100% {
+    background-position: 500px 1000px, 200px 400px, -100px 300px;
+  }
 }
