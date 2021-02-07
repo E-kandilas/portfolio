@@ -86,8 +86,8 @@
 
 @media only screen and (max-width: 1000px) {
   body{
-    padding-left: 5%;
-    height: 110vh;
+    padding-left: 2%;
+    height: 120vh;
   }
   .background-img {
     padding-top: 0%;
