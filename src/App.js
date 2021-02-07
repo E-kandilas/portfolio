@@ -1,10 +1,14 @@
+//Styling
 import "./App.css";
-import AboutMe from "./AboutMe";
-import Projects from "./Projects";
+
+//Background Image
 import blossom from "./Assets/Images/ink-plum-blossom.png";
 
-const App = () => {
+//Components
+import AboutMe from "./AboutMe";
+import Projects from "./Projects";
 
+const App = () => {
   return (
     <>
       <div className="welcome-page row h-100 align-items-center">
