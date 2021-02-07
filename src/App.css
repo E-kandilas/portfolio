@@ -3,9 +3,10 @@
   max-width: 55%;
   max-height: auto;
   position: fixed;
+  opacity: 0.58;
 }
 
-.change{
+.change {
   text-shadow: 1px 1px whitesmoke;
 }
 
@@ -49,6 +50,7 @@
   max-width: 35%;
   max-height: auto;
   object-fit: cover;
+  opacity: 0.99;
 }
 
 /* Home Page Links */
@@ -69,6 +71,6 @@
 }
 
 .home-icon:hover {
-  filter: invert(44%) sepia(93%) saturate(1326%) hue-rotate(320deg)
-    brightness(81%) contrast(122%);
+  filter: invert(77%) sepia(29%) saturate(4733%) hue-rotate(305deg)
+    brightness(113%) contrast(85%);
 }

@@ -28,9 +28,9 @@ const AboutMe = () => {
           <a href="https://www.linkedin.com/in/manny-kan-code/" target="_blank">
             <img src={Linkedin} className="home-icon" alt="LinkedIn" />
           </a>
-          <a href="mailto:ekandilas@gmail.com">
+          {/* <a href="mailto:ekandilas@gmail.com">
             <img src={Email} className="home-icon" alt="Email" />
-          </a>
+          </a> */}
           <a href={resume} target="_blank">
             <img src={Resume} className="home-icon" alt="Resume" />
           </a>
