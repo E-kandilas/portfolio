@@ -1,5 +1,4 @@
-/* Home Page Links */
-
+/* Home Page Links CSS*/
 .homepage-links {
   margin-top: 1%;
   width: 100%;
@@ -21,8 +20,10 @@
     brightness(113%) contrast(85%);
 }
 
+/* Loading Page Fade CSS */
+
 .welcome-page {
-  animation: fadeinout 4.5s linear 1 forwards;
+  animation: fadeinout 10s linear 1 forwards;
   background: rgb(214, 214, 221);
   background: linear-gradient(
     0deg,
@@ -35,26 +36,18 @@
   position: fixed;
   text-align: center;
   font-size: 2rem;
+  transition: opacity 1s, z-index .2s 1s;
 }
 
 @keyframes fadeinout {
   0% {
     opacity: 1;
   }
+  25% {
+    opacity: .5;
+  }
   50% {
-    opacity: 0.9;
-  }
-  65% {
-    opacity: 0.7;
-  }
-  75% {
-    opacity: 0.5;
-  }
-  85% {
-    opacity: 0.4;
-  }
-  95% {
-    opacity: 0.2;
+    opacity: 0.0;
   }
   100% {
     opacity: 0;
@@ -62,16 +55,16 @@
   }
 }
 
-
+/* Falling Sakura CSS */
 .snow-bg {
   content: "";
   /* display: block; */
-  position: sticky;
+  /* position: sticky; */
   z-index: -5;
-  top: 0;
+  /* top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; */
   /* pointer-events: none; */
   background-image: url("./Assets/Images/sakura-1-1.png"),
     url("./Assets/Images/sakura-2.png");
@@ -91,17 +84,13 @@
   }
 }
 
+/* Sakura Branch Background CSS */
 .background-img {
   z-index: -5;
   max-width: 55%;
   max-height: auto;
   position: fixed;
   opacity: 0.58;
-}
-
-/* adds suble white text shadow for easy readability */
-.change {
-  text-shadow: 1px 1px whitesmoke;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -114,6 +103,7 @@
   }
 }
 
+/* About Section CSS */
 .about-container {
   display: flex;
   flex-direction: row;
@@ -124,6 +114,11 @@
 .about-text {
   padding-top: 4%;
   padding-right: 4%;
+}
+
+/* adds suble white text shadow for easy readability */
+.change {
+  text-shadow: 1px 1px whitesmoke;
 }
 
 .profile-image {
