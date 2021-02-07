@@ -19,8 +19,8 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="col-lg about-text">
-        <h3>Welcome, traveler</h3>
-        <p className="text-justify text-body pt-3">{aboutText}</p>
+        <h3 className="change">Welcome, traveler</h3>
+        <p className="text-justify text-body pt-3 change">{aboutText}</p>
         <div className="homepage-links pt-5">
           <a href="https://github.com/E-kandilas" target="_blank">
             <img src={GitHub} className="home-icon" alt="Github" />

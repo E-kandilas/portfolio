@@ -5,6 +5,10 @@
   position: fixed;
 }
 
+.change{
+  text-shadow: 1px 1px whitesmoke;
+}
+
 @media only screen and (max-width: 1000px) {
   .background-img {
     padding-top: 0%;
