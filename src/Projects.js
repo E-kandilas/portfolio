@@ -23,7 +23,7 @@ const Projects = () => {
         picture={mindOverMatterDash}
         title={"Mind Over Matter"}
         description={mindOverMatterText}
-        deployedLink={"https://mind-over-matter.herokuapp.com/"}
+        // deployedLink={"https://mind-over-matter.herokuapp.com/"}
         repoLink={"https://github.com/FullstackHeroes/Mind-Over-Matter"}
       />
       <ProjectCard
