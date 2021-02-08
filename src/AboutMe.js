@@ -23,7 +23,9 @@ const AboutMe = () => {
       </div>
       <div className="col-lg about-text">
         <h3 className="change">Welcome, traveler</h3>
-        <p className="text-justify text-body pt-3 change">{aboutText}</p>
+        {/* <p className="text-justify text-body pt-3 change">{aboutText}</p> */}
+        <div className="text-justify text-body pt-3 change">{aboutText}</div>
+
         <div className="homepage-links pt-5">
           <a href="https://github.com/E-kandilas" target="_blank">
             <img src={GitHub} className="home-icon" alt="Github" />
